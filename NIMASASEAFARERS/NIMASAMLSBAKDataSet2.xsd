@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="NIMASAMLSBAKDataSet2" targetNamespace="http://tempuri.org/NIMASAMLSBAKDataSet2.xsd" xmlns:mstns="http://tempuri.org/NIMASAMLSBAKDataSet2.xsd" xmlns="http://tempuri.org/NIMASAMLSBAKDataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="NIMASAMLSBAKConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="NIMASAMLSBAKConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.NIMASASEAFARERS.Properties.Settings.GlobalReference.Default.NIMASAMLSBAKConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DockworkersCalTableAdapter" GeneratorDataComponentClassName="DockworkersCalTableAdapter" Name="DockworkersCal" UserDataComponentName="DockworkersCalTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="NIMASAMLSBAKConnectionString1 (Settings)" DbObjectName="NIMASAMLSBAK.dbo.DockworkersCal" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT DockworkerID, Surname, FirstName, MiddleName, DOB, Gender, Age, Height, NIN, NOK, Relationship, Email, Mobile, Address, State, Company, Location, Zone, Rank, Genotype, BloodGroup, Qualification, EnrollmentDate FROM dbo.DockworkersCal</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="DockworkerID" DataSetColumn="DockworkerID" />
+              <Mapping SourceColumn="Surname" DataSetColumn="Surname" />
+              <Mapping SourceColumn="FirstName" DataSetColumn="FirstName" />
+              <Mapping SourceColumn="MiddleName" DataSetColumn="MiddleName" />
+              <Mapping SourceColumn="DOB" DataSetColumn="DOB" />
+              <Mapping SourceColumn="Gender" DataSetColumn="Gender" />
+              <Mapping SourceColumn="Age" DataSetColumn="Age" />
+              <Mapping SourceColumn="Height" DataSetColumn="Height" />
+              <Mapping SourceColumn="NIN" DataSetColumn="NIN" />
+              <Mapping SourceColumn="NOK" DataSetColumn="NOK" />
+              <Mapping SourceColumn="Relationship" DataSetColumn="Relationship" />
+              <Mapping SourceColumn="Email" DataSetColumn="Email" />
+              <Mapping SourceColumn="Mobile" DataSetColumn="Mobile" />
+              <Mapping SourceColumn="Address" DataSetColumn="Address" />
+              <Mapping SourceColumn="State" DataSetColumn="State" />
+              <Mapping SourceColumn="Company" DataSetColumn="Company" />
+              <Mapping SourceColumn="Location" DataSetColumn="Location" />
+              <Mapping SourceColumn="Zone" DataSetColumn="Zone" />
+              <Mapping SourceColumn="Rank" DataSetColumn="Rank" />
+              <Mapping SourceColumn="Genotype" DataSetColumn="Genotype" />
+              <Mapping SourceColumn="BloodGroup" DataSetColumn="BloodGroup" />
+              <Mapping SourceColumn="Qualification" DataSetColumn="Qualification" />
+              <Mapping SourceColumn="EnrollmentDate" DataSetColumn="EnrollmentDate" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="NIMASAMLSBAKDataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="NIMASAMLSBAKDataSet2" msprop:Generator_UserDSName="NIMASAMLSBAKDataSet2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DockworkersCal" msprop:Generator_TableClassName="DockworkersCalDataTable" msprop:Generator_TableVarName="tableDockworkersCal" msprop:Generator_TablePropName="DockworkersCal" msprop:Generator_RowDeletingName="DockworkersCalRowDeleting" msprop:Generator_RowChangingName="DockworkersCalRowChanging" msprop:Generator_RowEvHandlerName="DockworkersCalRowChangeEventHandler" msprop:Generator_RowDeletedName="DockworkersCalRowDeleted" msprop:Generator_UserTableName="DockworkersCal" msprop:Generator_RowChangedName="DockworkersCalRowChanged" msprop:Generator_RowEvArgName="DockworkersCalRowChangeEvent" msprop:Generator_RowClassName="DockworkersCalRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DockworkerID" msprop:Generator_ColumnVarNameInTable="columnDockworkerID" msprop:Generator_ColumnPropNameInRow="DockworkerID" msprop:Generator_ColumnPropNameInTable="DockworkerIDColumn" msprop:Generator_UserColumnName="DockworkerID">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Surname" msprop:Generator_ColumnVarNameInTable="columnSurname" msprop:Generator_ColumnPropNameInRow="Surname" msprop:Generator_ColumnPropNameInTable="SurnameColumn" msprop:Generator_UserColumnName="Surname">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FirstName" msprop:Generator_ColumnVarNameInTable="columnFirstName" msprop:Generator_ColumnPropNameInRow="FirstName" msprop:Generator_ColumnPropNameInTable="FirstNameColumn" msprop:Generator_UserColumnName="FirstName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MiddleName" msprop:Generator_ColumnVarNameInTable="columnMiddleName" msprop:Generator_ColumnPropNameInRow="MiddleName" msprop:Generator_ColumnPropNameInTable="MiddleNameColumn" msprop:Generator_UserColumnName="MiddleName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DOB" msprop:Generator_ColumnVarNameInTable="columnDOB" msprop:Generator_ColumnPropNameInRow="DOB" msprop:Generator_ColumnPropNameInTable="DOBColumn" msprop:Generator_UserColumnName="DOB">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Gender" msprop:Generator_ColumnVarNameInTable="columnGender" msprop:Generator_ColumnPropNameInRow="Gender" msprop:Generator_ColumnPropNameInTable="GenderColumn" msprop:Generator_UserColumnName="Gender">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Age" msprop:Generator_ColumnVarNameInTable="columnAge" msprop:Generator_ColumnPropNameInRow="Age" msprop:Generator_ColumnPropNameInTable="AgeColumn" msprop:Generator_UserColumnName="Age">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Height" msprop:Generator_ColumnVarNameInTable="columnHeight" msprop:Generator_ColumnPropNameInRow="Height" msprop:Generator_ColumnPropNameInTable="HeightColumn" msprop:Generator_UserColumnName="Height">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NIN" msprop:Generator_ColumnVarNameInTable="columnNIN" msprop:Generator_ColumnPropNameInRow="NIN" msprop:Generator_ColumnPropNameInTable="NINColumn" msprop:Generator_UserColumnName="NIN">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NOK" msprop:Generator_ColumnVarNameInTable="columnNOK" msprop:Generator_ColumnPropNameInRow="NOK" msprop:Generator_ColumnPropNameInTable="NOKColumn" msprop:Generator_UserColumnName="NOK">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Relationship" msprop:Generator_ColumnVarNameInTable="columnRelationship" msprop:Generator_ColumnPropNameInRow="Relationship" msprop:Generator_ColumnPropNameInTable="RelationshipColumn" msprop:Generator_UserColumnName="Relationship">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Email" msprop:Generator_ColumnVarNameInTable="columnEmail" msprop:Generator_ColumnPropNameInRow="Email" msprop:Generator_ColumnPropNameInTable="EmailColumn" msprop:Generator_UserColumnName="Email">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Mobile" msprop:Generator_ColumnVarNameInTable="columnMobile" msprop:Generator_ColumnPropNameInRow="Mobile" msprop:Generator_ColumnPropNameInTable="MobileColumn" msprop:Generator_UserColumnName="Mobile">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Address" msprop:Generator_ColumnVarNameInTable="columnAddress" msprop:Generator_ColumnPropNameInRow="Address" msprop:Generator_ColumnPropNameInTable="AddressColumn" msprop:Generator_UserColumnName="Address">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="State" msprop:Generator_ColumnVarNameInTable="columnState" msprop:Generator_ColumnPropNameInRow="State" msprop:Generator_ColumnPropNameInTable="StateColumn" msprop:Generator_UserColumnName="State">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Company" msprop:Generator_ColumnVarNameInTable="columnCompany" msprop:Generator_ColumnPropNameInRow="Company" msprop:Generator_ColumnPropNameInTable="CompanyColumn" msprop:Generator_UserColumnName="Company">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Location" msprop:Generator_ColumnVarNameInTable="columnLocation" msprop:Generator_ColumnPropNameInRow="Location" msprop:Generator_ColumnPropNameInTable="LocationColumn" msprop:Generator_UserColumnName="Location">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Zone" msprop:Generator_ColumnVarNameInTable="columnZone" msprop:Generator_ColumnPropNameInRow="Zone" msprop:Generator_ColumnPropNameInTable="ZoneColumn" msprop:Generator_UserColumnName="Zone">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Rank" msprop:Generator_ColumnVarNameInTable="columnRank" msprop:Generator_ColumnPropNameInRow="Rank" msprop:Generator_ColumnPropNameInTable="RankColumn" msprop:Generator_UserColumnName="Rank">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Genotype" msprop:Generator_ColumnVarNameInTable="columnGenotype" msprop:Generator_ColumnPropNameInRow="Genotype" msprop:Generator_ColumnPropNameInTable="GenotypeColumn" msprop:Generator_UserColumnName="Genotype">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BloodGroup" msprop:Generator_ColumnVarNameInTable="columnBloodGroup" msprop:Generator_ColumnPropNameInRow="BloodGroup" msprop:Generator_ColumnPropNameInTable="BloodGroupColumn" msprop:Generator_UserColumnName="BloodGroup">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Qualification" msprop:Generator_ColumnVarNameInTable="columnQualification" msprop:Generator_ColumnPropNameInRow="Qualification" msprop:Generator_ColumnPropNameInTable="QualificationColumn" msprop:Generator_UserColumnName="Qualification">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EnrollmentDate" msprop:Generator_ColumnVarNameInTable="columnEnrollmentDate" msprop:Generator_ColumnPropNameInRow="EnrollmentDate" msprop:Generator_ColumnPropNameInTable="EnrollmentDateColumn" msprop:Generator_UserColumnName="EnrollmentDate">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

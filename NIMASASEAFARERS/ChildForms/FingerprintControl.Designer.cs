@@ -1,0 +1,417 @@
+﻿
+namespace NIMASASEAFARERS
+{
+    partial class FingerprintControl
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.btnClose = new Guna.UI2.WinForms.Guna2Button();
+            this.cboReaders = new System.Windows.Forms.ComboBox();
+            this.txtMessage = new System.Windows.Forms.TextBox();
+            this.btnCancel = new Guna.UI2.WinForms.Guna2Button();
+            this.textboxID = new Guna.UI2.WinForms.Guna2TextBox();
+            this.pbFingerprint = new System.Windows.Forms.PictureBox();
+            this.textboxNIN = new Guna.UI2.WinForms.Guna2TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.btnSearch = new Guna.UI2.WinForms.Guna2Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnReset = new Guna.UI2.WinForms.Guna2Button();
+            this.btnSave = new Guna.UI2.WinForms.Guna2Button();
+            this.btnCapture = new Guna.UI2.WinForms.Guna2Button();
+            this.btnStart = new Guna.UI2.WinForms.Guna2Button();
+            this.PassportImage = new System.Windows.Forms.PictureBox();
+            this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            ((System.ComponentModel.ISupportInitialize)(this.pbFingerprint)).BeginInit();
+            this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PassportImage)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // btnClose
+            // 
+            this.btnClose.BorderRadius = 6;
+            this.btnClose.CheckedState.Parent = this.btnClose;
+            this.btnClose.CustomImages.Parent = this.btnClose;
+            this.btnClose.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnClose.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnClose.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnClose.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnClose.DisabledState.Parent = this.btnClose;
+            this.btnClose.FillColor = System.Drawing.Color.Red;
+            this.btnClose.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnClose.ForeColor = System.Drawing.Color.Black;
+            this.btnClose.HoverState.Parent = this.btnClose;
+            this.btnClose.Location = new System.Drawing.Point(320, 549);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.ShadowDecoration.Parent = this.btnClose;
+            this.btnClose.Size = new System.Drawing.Size(76, 30);
+            this.btnClose.TabIndex = 21;
+            this.btnClose.Text = "Close";
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
+            // cboReaders
+            // 
+            this.cboReaders.Font = new System.Drawing.Font("Tahoma", 8F);
+            this.cboReaders.Location = new System.Drawing.Point(38, 432);
+            this.cboReaders.Name = "cboReaders";
+            this.cboReaders.Size = new System.Drawing.Size(276, 21);
+            this.cboReaders.TabIndex = 20;
+            // 
+            // txtMessage
+            // 
+            this.txtMessage.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.txtMessage.Location = new System.Drawing.Point(38, 459);
+            this.txtMessage.Multiline = true;
+            this.txtMessage.Name = "txtMessage";
+            this.txtMessage.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txtMessage.Size = new System.Drawing.Size(276, 84);
+            this.txtMessage.TabIndex = 18;
+            // 
+            // btnCancel
+            // 
+            this.btnCancel.BorderRadius = 6;
+            this.btnCancel.CheckedState.Parent = this.btnCancel;
+            this.btnCancel.CustomImages.Parent = this.btnCancel;
+            this.btnCancel.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnCancel.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnCancel.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnCancel.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnCancel.DisabledState.Parent = this.btnCancel;
+            this.btnCancel.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(114)))), ((int)(((byte)(239)))));
+            this.btnCancel.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnCancel.ForeColor = System.Drawing.Color.Black;
+            this.btnCancel.HoverState.Parent = this.btnCancel;
+            this.btnCancel.Location = new System.Drawing.Point(427, 549);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.ShadowDecoration.Parent = this.btnCancel;
+            this.btnCancel.Size = new System.Drawing.Size(77, 30);
+            this.btnCancel.TabIndex = 22;
+            this.btnCancel.Text = "Cancel";
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
+            // 
+            // textboxID
+            // 
+            this.textboxID.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.textboxID.BackColor = System.Drawing.Color.Transparent;
+            this.textboxID.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.textboxID.BorderRadius = 6;
+            this.textboxID.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.textboxID.DefaultText = "";
+            this.textboxID.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.textboxID.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.textboxID.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.textboxID.DisabledState.Parent = this.textboxID;
+            this.textboxID.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.textboxID.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.textboxID.FocusedState.Parent = this.textboxID;
+            this.textboxID.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.textboxID.ForeColor = System.Drawing.Color.Black;
+            this.textboxID.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.textboxID.HoverState.Parent = this.textboxID;
+            this.textboxID.Location = new System.Drawing.Point(540, 117);
+            this.textboxID.Name = "textboxID";
+            this.textboxID.Padding = new System.Windows.Forms.Padding(4);
+            this.textboxID.PasswordChar = '\0';
+            this.textboxID.PlaceholderText = "";
+            this.textboxID.ReadOnly = true;
+            this.textboxID.SelectedText = "";
+            this.textboxID.ShadowDecoration.Parent = this.textboxID;
+            this.textboxID.Size = new System.Drawing.Size(188, 29);
+            this.textboxID.TabIndex = 72;
+            this.textboxID.TextChanged += new System.EventHandler(this.textboxID_TextChanged);
+            // 
+            // pbFingerprint
+            // 
+            this.pbFingerprint.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pbFingerprint.Location = new System.Drawing.Point(320, 376);
+            this.pbFingerprint.Name = "pbFingerprint";
+            this.pbFingerprint.Size = new System.Drawing.Size(184, 167);
+            this.pbFingerprint.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbFingerprint.TabIndex = 17;
+            this.pbFingerprint.TabStop = false;
+            // 
+            // textboxNIN
+            // 
+            this.textboxNIN.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.textboxNIN.BackColor = System.Drawing.Color.Transparent;
+            this.textboxNIN.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.textboxNIN.BorderRadius = 6;
+            this.textboxNIN.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.textboxNIN.DefaultText = "";
+            this.textboxNIN.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.textboxNIN.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.textboxNIN.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.textboxNIN.DisabledState.Parent = this.textboxNIN;
+            this.textboxNIN.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.textboxNIN.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.textboxNIN.FocusedState.Parent = this.textboxNIN;
+            this.textboxNIN.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.textboxNIN.ForeColor = System.Drawing.Color.Black;
+            this.textboxNIN.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.textboxNIN.HoverState.Parent = this.textboxNIN;
+            this.textboxNIN.Location = new System.Drawing.Point(543, 64);
+            this.textboxNIN.Name = "textboxNIN";
+            this.textboxNIN.Padding = new System.Windows.Forms.Padding(4);
+            this.textboxNIN.PasswordChar = '\0';
+            this.textboxNIN.PlaceholderText = "National Identity Card";
+            this.textboxNIN.SelectedText = "";
+            this.textboxNIN.ShadowDecoration.Parent = this.textboxNIN;
+            this.textboxNIN.Size = new System.Drawing.Size(188, 29);
+            this.textboxNIN.TabIndex = 76;
+            // 
+            // label1
+            // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(550, 46);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(28, 15);
+            this.label1.TabIndex = 78;
+            this.label1.Text = "NIN";
+            // 
+            // label2
+            // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(549, 99);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(65, 15);
+            this.label2.TabIndex = 79;
+            this.label2.Text = "ID Number";
+            // 
+            // btnSearch
+            // 
+            this.btnSearch.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.btnSearch.BorderRadius = 6;
+            this.btnSearch.CheckedState.Parent = this.btnSearch;
+            this.btnSearch.CustomImages.Parent = this.btnSearch;
+            this.btnSearch.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnSearch.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnSearch.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnSearch.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnSearch.DisabledState.Parent = this.btnSearch;
+            this.btnSearch.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(114)))), ((int)(((byte)(239)))));
+            this.btnSearch.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnSearch.ForeColor = System.Drawing.Color.Black;
+            this.btnSearch.HoverState.Parent = this.btnSearch;
+            this.btnSearch.Location = new System.Drawing.Point(751, 63);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.ShadowDecoration.Parent = this.btnSearch;
+            this.btnSearch.Size = new System.Drawing.Size(90, 30);
+            this.btnSearch.TabIndex = 80;
+            this.btnSearch.Text = "Search";
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox1.Controls.Add(this.btnReset);
+            this.groupBox1.Controls.Add(this.btnSave);
+            this.groupBox1.Controls.Add(this.btnCapture);
+            this.groupBox1.Controls.Add(this.btnStart);
+            this.groupBox1.Controls.Add(this.PassportImage);
+            this.groupBox1.Location = new System.Drawing.Point(540, 165);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(429, 398);
+            this.groupBox1.TabIndex = 81;
+            this.groupBox1.TabStop = false;
+            // 
+            // btnReset
+            // 
+            this.btnReset.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnReset.BorderRadius = 6;
+            this.btnReset.CheckedState.Parent = this.btnReset;
+            this.btnReset.CustomImages.Parent = this.btnReset;
+            this.btnReset.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnReset.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnReset.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnReset.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnReset.DisabledState.Parent = this.btnReset;
+            this.btnReset.FillColor = System.Drawing.Color.DarkOrange;
+            this.btnReset.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnReset.ForeColor = System.Drawing.Color.Black;
+            this.btnReset.HoverState.Parent = this.btnReset;
+            this.btnReset.Location = new System.Drawing.Point(83, 321);
+            this.btnReset.Name = "btnReset";
+            this.btnReset.ShadowDecoration.Parent = this.btnReset;
+            this.btnReset.Size = new System.Drawing.Size(132, 38);
+            this.btnReset.TabIndex = 108;
+            this.btnReset.Text = "Reset";
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
+            // 
+            // btnSave
+            // 
+            this.btnSave.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnSave.BorderRadius = 6;
+            this.btnSave.CheckedState.Parent = this.btnSave;
+            this.btnSave.CustomImages.Parent = this.btnSave;
+            this.btnSave.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnSave.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnSave.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnSave.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnSave.DisabledState.Parent = this.btnSave;
+            this.btnSave.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(96)))), ((int)(((byte)(138)))));
+            this.btnSave.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnSave.ForeColor = System.Drawing.Color.Black;
+            this.btnSave.HoverState.Parent = this.btnSave;
+            this.btnSave.Location = new System.Drawing.Point(234, 321);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.ShadowDecoration.Parent = this.btnSave;
+            this.btnSave.Size = new System.Drawing.Size(125, 38);
+            this.btnSave.TabIndex = 107;
+            this.btnSave.Text = "Save";
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click_1);
+            // 
+            // btnCapture
+            // 
+            this.btnCapture.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnCapture.BorderRadius = 6;
+            this.btnCapture.CheckedState.Parent = this.btnCapture;
+            this.btnCapture.CustomImages.Parent = this.btnCapture;
+            this.btnCapture.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnCapture.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnCapture.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnCapture.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnCapture.DisabledState.Parent = this.btnCapture;
+            this.btnCapture.FillColor = System.Drawing.Color.Green;
+            this.btnCapture.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnCapture.ForeColor = System.Drawing.Color.Black;
+            this.btnCapture.HoverState.Parent = this.btnCapture;
+            this.btnCapture.Location = new System.Drawing.Point(234, 258);
+            this.btnCapture.Name = "btnCapture";
+            this.btnCapture.ShadowDecoration.Parent = this.btnCapture;
+            this.btnCapture.Size = new System.Drawing.Size(125, 38);
+            this.btnCapture.TabIndex = 106;
+            this.btnCapture.Text = "Capture Image";
+            this.btnCapture.Click += new System.EventHandler(this.btnCapture_Click_1);
+            // 
+            // btnStart
+            // 
+            this.btnStart.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnStart.BorderRadius = 6;
+            this.btnStart.CheckedState.Parent = this.btnStart;
+            this.btnStart.CustomImages.Parent = this.btnStart;
+            this.btnStart.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnStart.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnStart.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnStart.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnStart.DisabledState.Parent = this.btnStart;
+            this.btnStart.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(114)))), ((int)(((byte)(239)))));
+            this.btnStart.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnStart.ForeColor = System.Drawing.Color.Black;
+            this.btnStart.HoverState.Parent = this.btnStart;
+            this.btnStart.Location = new System.Drawing.Point(83, 258);
+            this.btnStart.Name = "btnStart";
+            this.btnStart.ShadowDecoration.Parent = this.btnStart;
+            this.btnStart.Size = new System.Drawing.Size(125, 38);
+            this.btnStart.TabIndex = 105;
+            this.btnStart.Text = "Start Camera";
+            this.btnStart.Click += new System.EventHandler(this.btnStart_Click_1);
+            // 
+            // PassportImage
+            // 
+            this.PassportImage.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.PassportImage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.PassportImage.Location = new System.Drawing.Point(83, 19);
+            this.PassportImage.Name = "PassportImage";
+            this.PassportImage.Size = new System.Drawing.Size(276, 219);
+            this.PassportImage.TabIndex = 104;
+            this.PassportImage.TabStop = false;
+            // 
+            // guna2HtmlLabel6
+            // 
+            this.guna2HtmlLabel6.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(96)))), ((int)(((byte)(138)))));
+            this.guna2HtmlLabel6.Location = new System.Drawing.Point(527, 8);
+            this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
+            this.guna2HtmlLabel6.Size = new System.Drawing.Size(373, 22);
+            this.guna2HtmlLabel6.TabIndex = 233;
+            this.guna2HtmlLabel6.Text = "Dock Worker Biometric Capture Western Zone";
+            // 
+            // FingerprintControl
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Window;
+            this.ClientSize = new System.Drawing.Size(1003, 600);
+            this.Controls.Add(this.guna2HtmlLabel6);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.btnSearch);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.textboxNIN);
+            this.Controls.Add(this.textboxID);
+            this.Controls.Add(this.btnCancel);
+            this.Controls.Add(this.btnClose);
+            this.Controls.Add(this.cboReaders);
+            this.Controls.Add(this.pbFingerprint);
+            this.Controls.Add(this.txtMessage);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Location = new System.Drawing.Point(50, 0);
+            this.MaximizeBox = false;
+            this.Name = "FingerprintControl";
+            this.Padding = new System.Windows.Forms.Padding(50, 0, 100, 0);
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Form3";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FingerprintControl_FormClosing);
+            this.Load += new System.EventHandler(this.Form3_Load);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.FingerprintControl_MouseDown);
+            ((System.ComponentModel.ISupportInitialize)(this.pbFingerprint)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.PassportImage)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private Guna.UI2.WinForms.Guna2Button btnClose;
+        internal System.Windows.Forms.ComboBox cboReaders;
+        private System.Windows.Forms.PictureBox pbFingerprint;
+        private System.Windows.Forms.TextBox txtMessage;
+        private Guna.UI2.WinForms.Guna2Button btnCancel;
+        private Guna.UI2.WinForms.Guna2TextBox textboxID;
+        private Guna.UI2.WinForms.Guna2TextBox textboxNIN;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private Guna.UI2.WinForms.Guna2Button btnSearch;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private Guna.UI2.WinForms.Guna2Button btnSave;
+        private Guna.UI2.WinForms.Guna2Button btnCapture;
+        private Guna.UI2.WinForms.Guna2Button btnStart;
+        private System.Windows.Forms.PictureBox PassportImage;
+        private Guna.UI2.WinForms.Guna2Button btnReset;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel6;
+    }
+}
